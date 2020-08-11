@@ -5,7 +5,9 @@ import Me from './Me.js';
 import Report from './Report.js';
 import Report2 from './Report2.js';
 import Report3 from './Report3.js';
+import Report4 from './Report4.js';
 import Kmom03 from './Kmom03.js';
+
 
 import LoggaIn from './LoggaIn.js';
 import CreateUpdate from './components/CreateUpdate.js';
@@ -31,6 +33,9 @@ const App = () => (
             <Link to="/report/week/3">Kmom03</Link>
           </li>
           <li>
+            <Link to="/report/week/4">Kmom04</Link>
+          </li>
+          <li>
             <Link to="/register">Register</Link>
           </li>
           <li>
@@ -46,6 +51,7 @@ const App = () => (
       <Route exact path="/report/week/1" component={Report} />
       <Route exact path="/report/week/2" component={Report2} />
       <Route exact path="/report/week/3" component={Report3} />
+      <Route exact path="/report/week/4" component={Report4} />
       <Route exact path="/register" component={Kmom03} />
       <Route exact path="/login" component={LoggaIn} />
       <Route exact path="/crud" component={CreateUpdate} />

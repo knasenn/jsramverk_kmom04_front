@@ -180,7 +180,7 @@ class Logg extends Component {
               </div>
               <div className="createAccount">
 
-                <button type="submit" className="myButton">Create Account</button>
+                <button type="submit" className="myButton">Logg in</button>
 
               </div>
 
